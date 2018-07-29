@@ -12,7 +12,7 @@
         <TextBlock x:Name="lblAddServer" HorizontalAlignment="Left" Margin="197,153,0,0" Text="Enter Server Name:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBox x:Name="txtAddServerName" HorizontalAlignment="Left" Margin="352,153,0,0" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.461,0.541" Width="193"/>
         <Button x:Name="btnAddServerName" Content="Add Server" HorizontalAlignment="Left" Margin="576,153,0,0" VerticalAlignment="Top" Click="btnAddServerName_Click"/>
-        <ListView x:Name="lboxServerList" HorizontalAlignment="Left" Height="349" Margin="352,210,0,0" VerticalAlignment="Top" Width="193"/>
+        <ListView x:Name="lboxServerList" HorizontalAlignment="Left" Height="349" Margin="352,210,0,0" VerticalAlignment="Top" Width="193" BorderBrush="Black" BorderThickness="1,1,1,1" Header="List of Servers:"/>
 
     </Grid>
 </Page>
